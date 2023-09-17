@@ -1,0 +1,45 @@
+﻿.live-cricket-matches {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+    .live-cricket-matches h2 {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .live-cricket-matches table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+    }
+
+    .live-cricket-matches th, td {
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #ccc;
+    }
+
+    .live-cricket-matches th {
+        background-color: #333;
+        color: #fff;
+    }
+
+.live-cricket-matches tr:nth-child(even) {
+    background-color: #e0e0e0;
+  }
+
+.match-status {
+    font-weight: bold;
+}
+
+.score {
+    font-weight: bold;
+    color: #007bff;
+}
